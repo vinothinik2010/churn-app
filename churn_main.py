@@ -30,3 +30,6 @@ model.fit(X, y)
 
 # Save the trained model to a file
 dump(model, 'model_churn.joblib')
+
+
+#Model file created by using joblib, but we can use pickle library also.
